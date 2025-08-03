@@ -39,7 +39,16 @@ Script ini sudah dilengkapi dengan pengecekan redirect, pengecekan string khusus
 
 ## ⚙️ Cara Penggunaan
 
-1. **Persiapkan list target**  
+1. **Installasi**
+```
+git clone https://github.com/username/next-project-scanner.git
+cd next-project-scanner
+```
+```
+pip install -r requirements.txt
+```
+
+2. **Persiapkan list target**  
 Buat file berisi daftar URL target (`list.txt`) contoh:
 ```
 example.com
@@ -47,7 +56,7 @@ http://targetsite.org
 https://another-site.net
 ```
 
-3. **Jalankan script:**
+3. **Jalankan script**
 ```bash
 python scanner.py
 ```
@@ -56,14 +65,6 @@ python scanner.py
 ```
 [?] Masukkan nama file target (contoh: list.txt):
 >> list.txt
-```
-3. **Installasi**
-```
-git clone https://github.com/username/next-project-scanner.git
-cd next-project-scanner
-```
-```
-pip install -r requirements.txt
 ```
 
 **Credit : Next Project**

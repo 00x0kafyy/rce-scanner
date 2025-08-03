@@ -41,10 +41,11 @@ Script ini sudah dilengkapi dengan pengecekan redirect, pengecekan string khusus
 
 1. **Persiapkan list target**  
 Buat file berisi daftar URL target (`list.txt`) contoh:
-
+```
 example.com
 http://targetsite.org
 https://another-site.net
+```
 
 3. **Jalankan script:**
 ```bash

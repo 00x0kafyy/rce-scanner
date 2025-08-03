@@ -57,7 +57,7 @@ python scanner.py
 [?] Masukkan nama file target (contoh: list.txt):
 >> list.txt
 ```
-3. **Installasi
+3. **Installasi**
 ```
 git clone https://github.com/username/next-project-scanner.git
 cd next-project-scanner
